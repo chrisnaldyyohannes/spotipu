@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Concert One',cursive;
+  
+}
+nav
+{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgba(0,0,0,0.5);
+  
+
+}
+.nav-links
+{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ text-decoration: none;
+ list-style: none;
+ color: white !important;
+}
+
+.logo
+{
+  font-size: 30px;
+}
+.jumbotron-container
+{
+  display: block;
+  background: #F037A5;
+  width: 100vw;
+  padding: 60px;
+
+}
+.container 
+{
+  max-width: 60%;
+  margin : 0 auto;
+  padding: auto 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+.faq
+{
+  font-size: 45px;
+  text-align: center;
+  margin-left: 0;
+  padding: 20px;
+  margin-top: 75px;
+  margin-bottom:0;
+  color: white;
+}
+
+.acc h3{
+  font-size: 25px;
+  background-color: rgba(0, 0, 0);
+  color: white;
+  padding: 20px;
+  margin : 0px;
+  text-align: left;
+  
+  cursor: pointer;
+  font-family: 'Oswald',sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+
+.acc
+{
+  text-align: left;
+  color: black;
+  border-bottom: 1px solid #fff;
+  margin-top: 15px;
+}
+
+/* .acc h3::after{
+  content: '+';
+  position: absolute;
+  right: 20px;
+  font-size: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}  */
+
+.acc:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+.content-faq *{
+  margin-top: 0;
+  line-height: 1.5;
+ 
+}
+
+.content-faq
+{
+  background-color: white;
+  /* BUAT HIDE */
+  /* display: none; */
+  
+}
+
+.content-inner
+{
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+
+}
+
+.footer-content
+{
+  margin: 0;
+  /* width: 100%; */
+  height: 80px;
+  background: black;
+}
+.footer-title
+{
+  margin: 0;
+  color:#C1C1C1;
+  font-size: 15px;
+  text-align: center;
+  line-height: 60px;
+}
+.col-1
+{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+}
+.search-container
+  {
+      margin-top: 5px;
+  }
+  .searchbar
+  {
+      width: 50%;
+      border-radius: 15px;
+      border: none;
+      padding: 15px;
+  }

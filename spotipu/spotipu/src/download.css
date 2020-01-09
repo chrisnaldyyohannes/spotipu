@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Concert One',cursive;
+  
+}
+.jumbotron-container-Download
+{
+  display: block;
+  background: rgb(25, 230, 140);
+  width: 130vw;
+  padding: 60px;
+
+}
+
+.jumbotron-container-Download2
+{
+  display: block;
+  background: white;
+  width: 100%;
+  padding: 60px;
+
+}
+.jumbotron-content-Download
+{
+  color: white;
+  font-size: 48px;
+  text-align: left;
+  margin-left: 5px;
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom:0;
+  margin-left: 0;
+}
+
+.desc-content-Download
+{
+  font-size: 25px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 1vw;
+}
+
+.linkDownload
+{
+  background: none;
+  color: white;
+
+}
+.Monitor
+{
+  display: none;
+  margin-left: 0;
+  align-items: left;
+    width: auto;
+    margin-top: 15vw;
+
+}
+.jumbotron-content-Download2
+{
+    font-size: 35px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 10vw;
+}
+.desc-content-Download2
+{
+    font-size: 25px;
+  text-align: left;
+  padding: 0px;
+  margin-bottom: 0;
+  margin-left: 10vw;
+}
+.playstorepic
+{
+  position: absolute;
+  bottom: 7%;
+  left: 38%;
+  
+}
+
+.playstore
+{
+  width: 500px;
+  height: 70px;
+  margin-left: 15vw;
+  padding-top: 0vw;
+}
+
+
+
+@media only screen and (max-width: 420px)
+{
+
+.jumbotron-container-Download
+{
+  display: block;
+  background: rgb(25, 230, 140);
+  width: 125vw !important;
+  padding: 60px;
+  
+
+}
+
+.jumbotron-container-Download2
+{
+  display: block;
+  background: white;
+  width: 100%;
+  padding: 60px;
+margin-left: 15px;
+}
+.jumbotron-content-Download
+{
+  color: white;
+  font-size: 45px;
+  padding: 20px;
+  margin-top: 60px;
+  margin-left: 25px;
+  margin-bottom:0;
+  
+}
+
+.desc-content-Download
+{
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 25px;
+}
+
+.linkDownload
+{
+  background: none;
+  color: white;
+
+}
+.jumbotron-content-Download2
+{
+    font-size: 35px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 0;
+}
+.desc-content-Download2
+{
+    font-size: 25px;
+  text-align: left;
+  padding: 0px;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.Monitor
+{
+  align-items: center;
+  width: 35%;
+}
+.playstorepic
+{
+  
+  margin-bottom: 0px;
+  
+  
+}
+
+.playstore
+{
+  width: 500px;
+  height: 70px;
+  margin-bottom: 0%;
+  margin-left: 30px;
+}
+
+
+
+
+} 
